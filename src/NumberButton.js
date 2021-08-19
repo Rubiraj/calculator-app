@@ -5,7 +5,7 @@ function NumberButton() {
   const { display } = useContext(context)
   var arrButtons = []
 
-  for (let i = 0; i < 10; i++) { //Moved your loop outside render()'s return
+  for (let i = 0; i < 10; i++) { 
     arrButtons.push(
       <input
         type="button"
