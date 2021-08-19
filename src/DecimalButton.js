@@ -1,6 +1,6 @@
 import {decimal_sign} from "./button_arr"
 import { context } from "./Context"
-import React, {useContext, useState} from "react"
+import React, {useContext} from "react"
 function DecimalButton(){
     const {display} = useContext(context)
     return (
